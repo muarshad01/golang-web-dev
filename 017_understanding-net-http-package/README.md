@@ -81,7 +81,7 @@ Some interesting things you can do with a request:
 
 ```
 
-If we look at **ParseForm**, 
+If we look at **[ParseForm](https://pkg.go.dev/net/http#Request.ParseForm)**, 
 
 ```go func (r *Request) ParseForm() error ```
 
@@ -89,7 +89,7 @@ we see that this is a method attached to a *http.Request.
 
 ***
 
-If we look at **FormValue***
+If we look at **FormValue()***
 
 ``` go func (r *Request) FormValue(key string) string```
 
